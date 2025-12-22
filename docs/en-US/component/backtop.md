@@ -31,12 +31,12 @@ backtop/custom
 
 ### Attributes
 
-| Name              | Description                                                          | Type      | Default |
-| ----------------- | -------------------------------------------------------------------- | --------- | ------- |
-| target            | the target to trigger scroll.                                        | ^[string] | —       |
-| visibility-height | the button will not show until the scroll height reaches this value. | ^[number] | 200     |
-| right             | right distance.                                                      | ^[number] | 40      |
-| bottom            | bottom distance.                                                     | ^[number] | 40      |
+| Name              | Description                                                          | Type                      | Default |
+| ----------------- | -------------------------------------------------------------------- | ------------------------- | ------- |
+| target            | the target to trigger scroll.                                        | `string` \| `HTMLElement` | —       |
+| visibility-height | the button will not show until the scroll height reaches this value. | ^[number]                 | 200     |
+| right             | right distance.                                                      | ^[number]                 | 40      |
+| bottom            | bottom distance.                                                     | ^[number]                 | 40      |
 
 ### Events
 
